@@ -1,0 +1,185 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  font-family: Montserrat, serif;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* headings */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.big-heading {
+  font-family: Montserrat, serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+
+.colored-section {
+  background-color: #34BE82;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.titleimg {
+  width: 90%;
+}
+
+/* Features section */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #BCD694;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #94D699;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #BCD694;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #BCD694;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  line-height: 1.5;
+}
+
+.pricing-descrption {
+  margin-top: 50px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-body {
+  padding: 2rem;
+}
+
+/* cta */
+
+@media (max-width: 1028px) {
+  .titleimg {
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* footer */
+
+.credits {
+  font-size: 7px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Colors
+#ABF7C7
+#94D699
+#BFEDAF
+#BCD694
+#F4F7AB
+
+#FBD148
+#FFF76A
+ */
